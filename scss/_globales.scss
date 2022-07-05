@@ -1,0 +1,72 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* MENU */
+
+ .menu{
+    a{
+        font-size: $letras !important;
+        font-weight: 600;
+        color:$colorTerciario;
+    }
+    button{
+        font-size: $letras !important;
+        font-weight: 600;
+    }
+ }
+/* carrusel */
+
+.carousel-inner {
+    max-height:39rem !important;
+}
+
+
+/* contacto */
+
+#bg-contactos{
+    position:relative;
+    top: -130px;
+} 
+
+ #seccion-contacto{
+    background-color: $colorPrincipal;
+    min-height:500px;
+    position:relative;
+}
+
+/* contenedor formulario */
+
+#contenedor-formulario{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: $colorSecundario;
+    border-radius:5px;
+    
+}
+
+#titulo-formulario {
+    color: $colorTerciario;
+}
+
+
+
+
+/* pie de pagina*/
+
+footer {
+    background: $colorPrincipal;
+    min-height: 100px;;
+    p{
+    color:$colorCuaternario;
+    text-align:center;
+    }
+}
