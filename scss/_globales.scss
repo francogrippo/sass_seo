@@ -70,3 +70,45 @@ footer {
     text-align:center;
     }
 }
+
+/*Grilla */
+.grid-container {
+  display: grid;
+  margin: 40px 0 40px 0;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(3, 200px);
+  gap: 1px 1px;
+  text-align: center;
+  justify-content: stretch;
+  font-size: 1.5rem;
+  grid-template-areas: "bannerUno bannerUno bannerUno bannerUno"
+ "noticiaDos noticiaDos noticiaTres noticiaCuatro"
+ "noticiaCinco noticiaSeis noticiaSiete noticiaCuatro"; }
+
+.bannerUno {
+  grid-area: bannerUno;
+  background-color: $colorSecundario; }
+
+.noticiaTres {
+  grid-area: noticiaTres;
+  background-color: $colorSecundario; }
+
+.noticiaDos {
+  grid-area: noticiaDos;
+  background-color: $colorSecundario; }
+
+.noticiaCuatro {
+  grid-area: noticiaCuatro;
+  background-color: $colorSecundario; }
+
+.noticiaCinco {
+  grid-area: noticiaCinco;
+  background-color: $colorSecundario; }
+
+.noticiaSeis {
+  grid-area: noticiaSeis;
+  background-color: $colorSecundario; }
+
+.noticiaSiete {
+  grid-area: noticiaSiete;
+  background-color: $colorSecundario; }
